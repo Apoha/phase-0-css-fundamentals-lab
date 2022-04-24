@@ -2,13 +2,16 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  /* text-align: center; */
+  text-align: center; 
 }
 
 
 
-nav > a{ padding-right: 10px;
-         padding-left: 10px;
+nav > a{
+         padding: 0px 10px 0px 10px;
+         /* padding-right: 10px;
+         padding-left: 10px; */
+         
          background-color:darkkhaki;
 }
 
@@ -22,61 +25,74 @@ nav > a{ padding-right: 10px;
                     text-align: center;
                     margin-left: 200px;
                     margin-right: auto;
-                    margin-bottom: auto;
-                  
-                  
+                    margin-bottom: auto;   
                 } 
 
 
-
-
-
                 #featured-property p{
-                    
-                     
                      margin-left: 30%;
                     margin-right: 10%;
-                    padding-right:5%;
-                    padding-left: auto;
+                    /* padding-right:5%;
+                    padding-left: auto; */
                       
                       text-align: center;
                       width: 600px;
-            /* border: 2px solid black; */
+            /* border: 2px solid black;  */
 
              }
 
 
 #details {
+          display: flex;
+          /* justify-content: space-around; */
+          justify-content: space-between;
             width:100%;
             height:4cm;
          background-color:orangered;
         
           }
 
+/* #details div:nth-child(1){
+  border:3px solid black;
+  
+} */
 
 
+/* 
+#details div:nth-child(2){
+   border:3px solid black; 
+} */
 
 
+/* 
+#details div:nth-child(3){
+  border:3px solid black;
+ 
+} */
 
-  #details h3{ 
+/* #details div:nth-child(4){
+   border:3px solid black; 
+  
+} */
+
+/* #details h3{ 
     display:table;
-            margin: 0 auto;
-         
-    float:left;
+    margin: 0 auto;  */
+      
+    /* float:left; */
     /*align-items:stretch;
-    width:100% */
-           }
+    width:100%  }*/
+          
 
 
-
-           #details p{
-            min-width: 696px;
-            list-style: none;
+            /* #details p{
+            min-width: auto;
+             list-style: none; 
             padding-top: 20px;
-           
-            }    
+          
+            }    */
             
-            
+/*             
              #details  a {
               display: inline;
-            } 
+            }  */
